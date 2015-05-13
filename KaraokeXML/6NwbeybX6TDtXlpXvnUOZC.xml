@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database 
+    xmlns="https://yourKaraoke.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://yourKaraoke.com Karaoke.xsd ">
+    <users>
+        <user>
+            <name>Konrad</name>
+            <sex>Male</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/1.jpeg</icon> 
+        </user> 
+        <user>
+            <name>Alice</name>
+            <sex>Female</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/2.jpeg</icon> 
+        </user> 
+    </users>
+    <songs>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+                <spotifyID>spotify:track:6aeC5OsJXjRwlNAcqnFnMA</spotifyID>
+            </properties>
+            <lyrics>
+               
+            </lyrics> 
+        </song> 
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+                <spotifyID>spotify:track:6Z5XZ8fjmWGbkdahOgreVe</spotifyID>
+            </properties>
+            <lyrics>
+               <verse name="v1">
+                    <lines>
+                      <line time="60" text="End of passion play, crumbling away"></line> 
+                      <line time="62" text="I'm your source of self-destruction "></line> 
+                      <line time="64" text="Veins that pump with fear, sucking darkest clear"></line> 
+                      <line time="66" text="Leading on your deaths' construction"></line> 
+                    </lines>
+                </verse>
+                <verse name="v2">
+                    <lines>
+                      <line time="43" text="Taste me you will see"></line> 
+                      <line time="49" text="More is all you need"></line> 
+                      <line time="57" text="Dedicated to"></line> 
+                      <line time="67" text="How I'm killing you"></line> 
+                  </lines> 
+                </verse>
+                <verse name="v3">
+                    <lines>
+                      <line time="108" text="Come crawling faster"></line>
+                      <line time="117" text="Obey your master"></line>
+                      <line time="125" text="Your life burns faster"></line>
+                      <line time="132" text="Obey your master "></line>
+                      <line time="140" text="Maste"></line> 
+                  </lines>  
+                </verse>
+            </lyrics> 
+        </song>
+    </songs>
+    <playlist>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+            </properties>
+        </song>
+    </playlist> 
+</database>
+

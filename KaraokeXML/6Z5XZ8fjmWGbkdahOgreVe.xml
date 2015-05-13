@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database 
+    xmlns="https://yourKaraoke.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://yourKaraoke.com Karaoke.xsd ">
+    <users>
+        <user>
+            <name>Konrad</name>
+            <sex>Male</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/1.jpeg</icon> 
+        </user> 
+        <user>
+            <name>Alice</name>
+            <sex>Female</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/2.jpeg</icon> 
+        </user> 
+    </users>
+    <songs>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+                <spotifyID>spotify:track:6Z5XZ8fjmWGbkdahOgreVe</spotifyID>
+            </properties>
+            <lyrics>
+              <verse name="v1">
+                  <lines>     
+                      <line time="6" text="I see trees of green, red roses, too,"></line> 
+                      <line time="14" text="I see them bloom, for me and you"></line> 
+                      <line time="20" text="And I think to myself"></line> 
+                      <line time="25" text="What a wonderful world."></line> 
+                  </lines>
+                </verse>
+                <verse name="v2">
+                    <lines>
+                      <line time="33" text="I see skies of blue, and clouds of white"></line> 
+                      <line time="41" text="The bright blessed day, the dark sacred night"></line> 
+                      <line time="47" text="And I think to myself"></line> 
+                      <line time="52" text="What a wonderful world."></line> 
+                  </lines> 
+                </verse>
+                <verse name="v3">
+                    <lines>
+                      <line time="60" text="The colors of the rainbow, so pretty in the sky,"></line> 
+                      <line time="67" text=" Are also on the faces of people going by."></line> 
+                      <line time="73" text="I see friends shaking hands, sayin', 'How do you do?'"></line> 
+                      <line time="81" text="They're really sayin', I love you."></line> 
+                  </lines>  
+                </verse>
+                <verse name="v4">
+                    <lines>
+                      <line time="87" text="I hear babies cryin'. I watch them grow."></line> 
+                      <line time="91" text="They'll learn much more than I'll ever know"></line> 
+                      <line time="101" text="And I think to myself"></line> 
+                      <line time="105" text="What a wonderful world."></line> 
+                  </lines>  
+                </verse> 
+                <verse name="v5">
+                    <lines>
+                      <line time="112" text="Yes, I think to myself"></line> 
+                      <line time="119" text="What a wonderful world"></line>  
+                    </lines>
+                </verse>
+            </lyrics> 
+        </song>
+    </songs>
+    <playlist>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+            </properties>
+        </song>
+    </playlist> 
+</database>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database 
+    xmlns="https://yourKaraoke.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://yourKaraoke.com Karaoke.xsd ">
+    <users>
+        <user>
+            <name>Konrad</name>
+            <sex>Male</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/1.jpeg</icon> 
+        </user> 
+        <user>
+            <name>Alice</name>
+            <sex>Female</sex>
+            <age>24</age>
+            <icon>https://yourkaraoke.com/images/2.jpeg</icon> 
+        </user> 
+    </users>
+    <songs>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+                <spotifyID>spotify:track:6aeC5OsJXjRwlNAcqnFnMA</spotifyID>
+            </properties>
+            <lyrics>
+                <verse name="v1">
+                    <lines>
+                      <line time="7" text="All the leaves are brown and the sky is grey"></line> 
+                      <line time="16" text="I've been for a walk on a winters day"></line> 
+                      <line time="24" text="I'd be safe and warm if I was in L.A."></line> 
+                      <line time="32" text="California dreaming on such a winters day"></line> 
+                    </lines>
+                </verse>
+                <verse name="v2">
+                    <lines>
+                      <line time="43" text="Stepped into a church I passed along the way"></line> 
+                      <line time="49" text="Well, I got down on my knees and I pretend to pray"></line> 
+                      <line time="57" text="You know the preacher likes the cold he knows I'm gonna stay"></line> 
+                      <line time="67" text="California dreaming on such a winters day"></line> 
+                  </lines> 
+                </verse>
+                <verse name="v3">
+                    <lines>
+                      <line time="108" text="All the leaves a brown and the sky is grey"></line>
+                      <line time="117" text="I've been for a walk on a winters day"></line>
+                      <line time="125" text="If I didn't tell her I could leave today"></line>
+                      <line time="132" text="California dreaming on such a winters day"></line>
+                      <line time="140" text="On such a winters day, on such a winters day"></line> 
+                  </lines>  
+                </verse>
+            </lyrics> 
+        </song> 
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+                <spotifyID>spotify:track:6Z5XZ8fjmWGbkdahOgreVe</spotifyID>
+            </properties>
+            <lyrics>
+              <verse name="v1">
+                  <lines>     
+                      <line time="6000" text="I see trees of green, red roses, too,"></line> 
+                      <line time="14000" text="I see them bloom, for me and you"></line> 
+                      <line time="20000" text="And I think to myself"></line> 
+                      <line time="25000" text="What a wonderful world."></line> 
+                  </lines>
+                </verse>
+                <verse name="v2">
+                    <lines>
+                      <line time="33000" text="I see skies of blue, and clouds of white"></line> 
+                      <line time="41000" text="The bright blessed day, the dark sacred night"></line> 
+                      <line time="47000" text="And I think to myself"></line> 
+                      <line time="52000" text="What a wonderful world."></line> 
+                  </lines> 
+                </verse>
+                <verse name="v3">
+                    <lines>
+                      <line time="60000" text="The colors of the rainbow, so pretty in the sky,"></line> 
+                      <line time="67000" text=" Are also on the faces of people going by."></line> 
+                      <line time="73000" text="I see friends shaking hands, sayin', 'How do you do?'"></line> 
+                      <line time="81000" text="They're really sayin', I love you."></line> 
+                  </lines>  
+                </verse>
+                <verse name="v4">
+                    <lines>
+                      <line time="87000" text="I hear babies cryin'. I watch them grow."></line> 
+                      <line time="91000" text="They'll learn much more than I'll ever know"></line> 
+                      <line time="101000" text="And I think to myself"></line> 
+                      <line time="105000" text="What a wonderful world."></line> 
+                  </lines>  
+                </verse> 
+                <verse name="v5">
+                    <lines>
+                      <line time="112000" text="Yes, I think to myself"></line> 
+                      <line time="119000" text="What a wonderful world"></line>  
+                    </lines>
+                </verse>
+            </lyrics> 
+        </song>
+    </songs>
+    <playlist>
+        <song>
+            <properties>
+                <title> What a wonderful world </title>
+                <authors>
+                    <author> Louis Armstrong </author>
+                </authors>
+            </properties>
+        </song>
+    </playlist> 
+</database>
